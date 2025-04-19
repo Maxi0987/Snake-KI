@@ -1,0 +1,82 @@
+ snake_model_v100.h5 → ⌀ Score: 0.67
+🔍 Teste Modell: snake_model_v1000.h5
+📊 snake_model_v1000.h5 → ⌀ Score: 6.67
+🔍 Teste Modell: snake_model_v125.h5
+📊 snake_model_v125.h5 → ⌀ Score: 0.00
+🔍 Teste Modell: snake_model_v150.h5
+📊 snake_model_v150.h5 → ⌀ Score: 13.00
+🔍 Teste Modell: snake_model_v175.h5
+📊 snake_model_v175.h5 → ⌀ Score: 0.67
+🔍 Teste Modell: snake_model_v200.h5
+📊 snake_model_v200.h5 → ⌀ Score: 4.00
+🔍 Teste Modell: snake_model_v225.h5
+📊 snake_model_v225.h5 → ⌀ Score: 0.00
+🔍 Teste Modell: snake_model_v25.h5
+📊 snake_model_v25.h5 → ⌀ Score: 0.00
+🔍 Teste Modell: snake_model_v250.h5
+📊 snake_model_v250.h5 → ⌀ Score: 1.00
+🔍 Teste Modell: snake_model_v275.h5
+📊 snake_model_v275.h5 → ⌀ Score: 0.67
+🔍 Teste Modell: snake_model_v300.h5
+📊 snake_model_v300.h5 → ⌀ Score: 0.00
+🔍 Teste Modell: snake_model_v325.h5
+📊 snake_model_v325.h5 → ⌀ Score: 8.00
+🔍 Teste Modell: snake_model_v350.h5
+📊 snake_model_v350.h5 → ⌀ Score: 0.33
+🔍 Teste Modell: snake_model_v375.h5
+📊 snake_model_v375.h5 → ⌀ Score: 1.00
+🔍 Teste Modell: snake_model_v400.h5
+📊 snake_model_v400.h5 → ⌀ Score: 18.67
+🔍 Teste Modell: snake_model_v425.h5
+📊 snake_model_v425.h5 → ⌀ Score: 1.00
+🔍 Teste Modell: snake_model_v450.h5
+📊 snake_model_v450.h5 → ⌀ Score: 1.33
+🔍 Teste Modell: snake_model_v475.h5
+📊 snake_model_v475.h5 → ⌀ Score: 13.67
+🔍 Teste Modell: snake_model_v50.h5
+📊 snake_model_v50.h5 → ⌀ Score: 1.67
+🔍 Teste Modell: snake_model_v500.h5
+📊 snake_model_v500.h5 → ⌀ Score: 7.00
+🔍 Teste Modell: snake_model_v525.h5
+📊 snake_model_v525.h5 → ⌀ Score: 10.33
+🔍 Teste Modell: snake_model_v550.h5
+📊 snake_model_v550.h5 → ⌀ Score: 6.33
+🔍 Teste Modell: snake_model_v575.h5
+📊 snake_model_v575.h5 → ⌀ Score: 23.00
+🔍 Teste Modell: snake_model_v600.h5
+📊 snake_model_v600.h5 → ⌀ Score: 27.33
+🔍 Teste Modell: snake_model_v625.h5
+📊 snake_model_v625.h5 → ⌀ Score: 1.67
+🔍 Teste Modell: snake_model_v650.h5
+📊 snake_model_v650.h5 → ⌀ Score: 2.00
+🔍 Teste Modell: snake_model_v675.h5
+📊 snake_model_v675.h5 → ⌀ Score: 3.67
+🔍 Teste Modell: snake_model_v700.h5
+📊 snake_model_v700.h5 → ⌀ Score: 1.67
+🔍 Teste Modell: snake_model_v725.h5
+📊 snake_model_v725.h5 → ⌀ Score: 7.00
+🔍 Teste Modell: snake_model_v75.h5
+📊 snake_model_v75.h5 → ⌀ Score: 1.33
+🔍 Teste Modell: snake_model_v750.h5
+📊 snake_model_v750.h5 → ⌀ Score: 25.67
+🔍 Teste Modell: snake_model_v775.h5
+📊 snake_model_v775.h5 → ⌀ Score: 15.00
+🔍 Teste Modell: snake_model_v800.h5
+📊 snake_model_v800.h5 → ⌀ Score: 29.67
+🔍 Teste Modell: snake_model_v825.h5
+📊 snake_model_v825.h5 → ⌀ Score: 5.67
+🔍 Teste Modell: snake_model_v850.h5
+📊 snake_model_v850.h5 → ⌀ Score: 4.33
+🔍 Teste Modell: snake_model_v875.h5
+📊 snake_model_v875.h5 → ⌀ Score: 26.67
+🔍 Teste Modell: snake_model_v900.h5
+📊 snake_model_v900.h5 → ⌀ Score: 24.00
+🔍 Teste Modell: snake_model_v925.h5
+📊 snake_model_v925.h5 → ⌀ Score: 38.00
+🔍 Teste Modell: snake_model_v950.h5
+📊 snake_model_v950.h5 → ⌀ Score: 30.33
+🔍 Teste Modell: snake_model_v975.h5
+📊 snake_model_v975.h5 → ⌀ Score: 21.33
+
+🏆 Bestes Modell:
+snake_model_v925.h5 mit durchschnittlichem Score von 38.00
