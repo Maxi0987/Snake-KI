@@ -3,6 +3,18 @@ import random
 from collections import deque
 import tensorflow as tf
 
+# ✅ GPU-Support aktivieren (optional, aber empfohlen)
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        print("🚀 GPU wird verwendet.")
+    except RuntimeError as e:
+        print("⚠️ Fehler bei der GPU-Initialisierung:", e)
+else:
+    print("💡 Keine GPU gefunden, Training läuft auf CPU.")
+
 class DQNAgent:
     def __init__(self, state_size, action_size, model_name="snake_model"):
         self.state_size = state_size
@@ -49,7 +61,6 @@ class DQNAgent:
         for state, action, reward, next_state, done in minibatch:
             target = reward
             if not done:
-                # Bellman-Gleichung: Q(s,a) = r + γ * max(Q(s',a'))
                 target = reward + self.gamma * np.amax(self.model.predict(np.array([next_state]), verbose=0)[0])
             target_f = self.model.predict(np.array([state]), verbose=0)[0]
             target_f[action] = target
@@ -67,5 +78,8 @@ class DQNAgent:
         self.model.save(filename)
 
     def load(self, filename):
-        self.model = tf.keras.models.load_model(filename, compile=False)
-        self.model.compile(loss='mse', optimizer=tf.keras.optimizers.Adam(learning_rate=self.learning_rate))
+    # Modellarchitektur neu aufbauen
+        self.model = self._build_model()
+
+    # Gewichte separat laden
+        self.model.load_weights(filename)

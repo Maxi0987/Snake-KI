@@ -398,7 +398,6 @@
 2025-04-20 08:09:12 | Episode 1973/3000 | Score:  30 | Reward: 193.6 | Epsilon: 0.00996568 | Steps: 995
 2025-04-20 08:09:34 | Episode 1974/3000 | Score:   6 | Reward: 23.6 | Epsilon: 0.00996568 | Steps: 271
 2025-04-20 08:09:56 | Episode 1975/3000 | Score:  10 | Reward: 63.7 | Epsilon: 0.00996568 | Steps: 274
-2025-04-20 08:09:56 | ✅ Modell gespeichert: models/V4\snake_model_v1975.h5
 2025-04-20 08:10:40 | Episode 1976/3000 | Score:  23 | Reward: 155.5 | Epsilon: 0.00996568 | Steps: 669
 2025-04-20 08:11:32 | Episode 1977/3000 | Score:  27 | Reward: 181.2 | Epsilon: 0.00996568 | Steps: 816
 2025-04-20 08:12:12 | Episode 1978/3000 | Score:  23 | Reward: 161.5 | Epsilon: 0.00996568 | Steps: 609
@@ -424,7 +423,6 @@
 2025-04-20 08:26:28 | Episode 1998/3000 | Score:   3 | Reward: 0.2 | Epsilon: 0.00996568 | Steps: 202
 2025-04-20 08:27:05 | Episode 1999/3000 | Score:  16 | Reward: 97.3 | Epsilon: 0.00996568 | Steps: 544
 2025-04-20 08:27:56 | Episode 2000/3000 | Score:  28 | Reward: 192.2 | Epsilon: 0.00996568 | Steps: 807
-2025-04-20 08:27:56 | ✅ Modell gespeichert: models/V4\snake_model_v2000.h5
 2025-04-20 08:29:12 | Episode 2001/3000 | Score:  36 | Reward: 229.6 | Epsilon: 0.00996568 | Steps: 1241
 2025-04-20 08:30:06 | Episode 2002/3000 | Score:  25 | Reward: 157.0 | Epsilon: 0.00996568 | Steps: 856
 2025-04-20 08:30:32 | Episode 2003/3000 | Score:  10 | Reward: 56.7 | Epsilon: 0.00996568 | Steps: 344
@@ -450,7 +448,6 @@
 2025-04-20 08:46:42 | Episode 2023/3000 | Score:  19 | Reward: 134.2 | Epsilon: 0.00996568 | Steps: 478
 2025-04-20 08:47:02 | Episode 2024/3000 | Score:   5 | Reward: 16.7 | Epsilon: 0.00996568 | Steps: 239
 2025-04-20 08:48:36 | Episode 2025/3000 | Score:  51 | Reward: 347.9 | Epsilon: 0.00996568 | Steps: 1573
-2025-04-20 08:48:36 | ✅ Modell gespeichert: models/V4\snake_model_v2025.h5
 2025-04-20 08:49:24 | Episode 2026/3000 | Score:  21 | Reward: 128.2 | Epsilon: 0.00996568 | Steps: 740
 2025-04-20 08:49:58 | Episode 2027/3000 | Score:  13 | Reward: 73.4 | Epsilon: 0.00996568 | Steps: 480
 2025-04-20 08:50:33 | Episode 2028/3000 | Score:  15 | Reward: 91.5 | Epsilon: 0.00996568 | Steps: 501
@@ -476,7 +473,6 @@
 2025-04-20 09:05:30 | Episode 2048/3000 | Score:   8 | Reward: 54.5 | Epsilon: 0.00996568 | Steps: 164
 2025-04-20 09:06:19 | Episode 2049/3000 | Score:  26 | Reward: 176.4 | Epsilon: 0.00996568 | Steps: 763
 2025-04-20 09:07:01 | Episode 2050/3000 | Score:  21 | Reward: 139.3 | Epsilon: 0.00996568 | Steps: 629
-2025-04-20 09:07:01 | ✅ Modell gespeichert: models/V4\snake_model_v2050.h5
 2025-04-20 09:07:42 | Episode 2051/3000 | Score:  19 | Reward: 121.2 | Epsilon: 0.00996568 | Steps: 608
 2025-04-20 09:08:22 | Episode 2052/3000 | Score:  26 | Reward: 193.1 | Epsilon: 0.00996568 | Steps: 596
 2025-04-20 09:09:02 | Episode 2053/3000 | Score:  21 | Reward: 140.6 | Epsilon: 0.00996568 | Steps: 616
@@ -502,7 +498,6 @@
 2025-04-20 09:26:59 | Episode 2073/3000 | Score:   9 | Reward: 48.1 | Epsilon: 0.00996568 | Steps: 329
 2025-04-20 09:28:51 | Episode 2074/3000 | Score:  65 | Reward: 455.1 | Epsilon: 0.00996568 | Steps: 1915
 2025-04-20 09:29:33 | Episode 2075/3000 | Score:  21 | Reward: 138.7 | Epsilon: 0.00996568 | Steps: 635
-2025-04-20 09:29:33 | ✅ Modell gespeichert: models/V4\snake_model_v2075.h5
 2025-04-20 09:30:58 | Episode 2076/3000 | Score:  45 | Reward: 302.7 | Epsilon: 0.00996568 | Steps: 1419
 2025-04-20 09:31:41 | Episode 2077/3000 | Score:  23 | Reward: 156.3 | Epsilon: 0.00996568 | Steps: 661
 2025-04-20 09:32:56 | Episode 2078/3000 | Score:  36 | Reward: 231.2 | Epsilon: 0.00996568 | Steps: 1225
@@ -528,7 +523,6 @@
 2025-04-20 09:48:17 | Episode 2098/3000 | Score:  22 | Reward: 153.9 | Epsilon: 0.00996568 | Steps: 584
 2025-04-20 09:49:32 | Episode 2099/3000 | Score:  40 | Reward: 269.9 | Epsilon: 0.00996568 | Steps: 1242
 2025-04-20 09:50:11 | Episode 2100/3000 | Score:  22 | Reward: 152.9 | Epsilon: 0.00996568 | Steps: 594
-2025-04-20 09:50:12 | ✅ Modell gespeichert: models/V4\snake_model_v2100.h5
 2025-04-20 09:50:31 | Episode 2101/3000 | Score:   7 | Reward: 38.3 | Epsilon: 0.00996568 | Steps: 225
 2025-04-20 09:51:57 | Episode 2102/3000 | Score:  41 | Reward: 259.3 | Epsilon: 0.00996568 | Steps: 1449
 2025-04-20 09:52:15 | Episode 2103/3000 | Score:   3 | Reward: 0.6 | Epsilon: 0.00996568 | Steps: 198
@@ -554,7 +548,6 @@
 2025-04-20 10:06:39 | Episode 2123/3000 | Score:  23 | Reward: 137.1 | Epsilon: 0.00996568 | Steps: 853
 2025-04-20 10:07:40 | Episode 2124/3000 | Score:  32 | Reward: 213.8 | Epsilon: 0.00996568 | Steps: 995
 2025-04-20 10:08:12 | Episode 2125/3000 | Score:  15 | Reward: 96.9 | Epsilon: 0.00996568 | Steps: 447
-2025-04-20 10:08:12 | ✅ Modell gespeichert: models/V4\snake_model_v2125.h5
 2025-04-20 10:08:49 | Episode 2126/3000 | Score:  18 | Reward: 117.0 | Epsilon: 0.00996568 | Steps: 549
 2025-04-20 10:09:28 | Episode 2127/3000 | Score:  14 | Reward: 73.4 | Epsilon: 0.00996568 | Steps: 581
 2025-04-20 10:10:07 | Episode 2128/3000 | Score:  18 | Reward: 114.2 | Epsilon: 0.00996568 | Steps: 577
@@ -580,7 +573,6 @@
 2025-04-20 10:28:32 | Episode 2148/3000 | Score:  54 | Reward: 377.1 | Epsilon: 0.00996568 | Steps: 1584
 2025-04-20 10:29:51 | Episode 2149/3000 | Score:  39 | Reward: 253.0 | Epsilon: 0.00996568 | Steps: 1310
 2025-04-20 10:31:00 | Episode 2150/3000 | Score:  34 | Reward: 221.4 | Epsilon: 0.00996568 | Steps: 1121
-2025-04-20 10:31:00 | ✅ Modell gespeichert: models/V4\snake_model_v2150.h5
 2025-04-20 10:31:41 | Episode 2151/3000 | Score:  21 | Reward: 141.9 | Epsilon: 0.00996568 | Steps: 603
 2025-04-20 10:32:44 | Episode 2152/3000 | Score:  32 | Reward: 210.7 | Epsilon: 0.00996568 | Steps: 1026
 2025-04-20 10:33:10 | Episode 2153/3000 | Score:  13 | Reward: 87.0 | Epsilon: 0.00996568 | Steps: 344
@@ -606,7 +598,6 @@
 2025-04-20 10:51:10 | Episode 2173/3000 | Score:   8 | Reward: 44.5 | Epsilon: 0.00996568 | Steps: 264
 2025-04-20 10:51:41 | Episode 2174/3000 | Score:  16 | Reward: 108.8 | Epsilon: 0.00996568 | Steps: 429
 2025-04-20 10:53:15 | Episode 2175/3000 | Score:  53 | Reward: 368.6 | Epsilon: 0.00996568 | Steps: 1568
-2025-04-20 10:53:15 | ✅ Modell gespeichert: models/V4\snake_model_v2175.h5
 2025-04-20 10:53:36 | Episode 2176/3000 | Score:  12 | Reward: 85.0 | Epsilon: 0.00996568 | Steps: 263
 2025-04-20 10:54:26 | Episode 2177/3000 | Score:  30 | Reward: 215.5 | Epsilon: 0.00996568 | Steps: 776
 2025-04-20 10:55:16 | Episode 2178/3000 | Score:  29 | Reward: 205.6 | Epsilon: 0.00996568 | Steps: 774
@@ -632,7 +623,6 @@
 2025-04-20 11:14:11 | Episode 2198/3000 | Score:  30 | Reward: 205.1 | Epsilon: 0.00996568 | Steps: 880
 2025-04-20 11:15:11 | Episode 2199/3000 | Score:  33 | Reward: 226.1 | Epsilon: 0.00996568 | Steps: 973
 2025-04-20 11:16:11 | Episode 2200/3000 | Score:  34 | Reward: 237.1 | Epsilon: 0.00996568 | Steps: 964
-2025-04-20 11:16:11 | ✅ Modell gespeichert: models/V4\snake_model_v2200.h5
 2025-04-20 11:16:20 | Episode 2201/3000 | Score:   1 | Reward: -3.0 | Epsilon: 0.00996568 | Steps:  32
 2025-04-20 11:17:05 | Episode 2202/3000 | Score:  22 | Reward: 144.6 | Epsilon: 0.00996568 | Steps: 677
 2025-04-20 11:17:50 | Episode 2203/3000 | Score:  21 | Reward: 131.3 | Epsilon: 0.00996568 | Steps: 709
@@ -658,7 +648,6 @@
 2025-04-20 11:35:28 | Episode 2223/3000 | Score:   7 | Reward: 42.8 | Epsilon: 0.00996568 | Steps: 180
 2025-04-20 11:36:42 | Episode 2224/3000 | Score:  41 | Reward: 282.5 | Epsilon: 0.00996568 | Steps: 1217
 2025-04-20 11:37:01 | Episode 2225/3000 | Score:   8 | Reward: 49.3 | Epsilon: 0.00996568 | Steps: 216
-2025-04-20 11:37:01 | ✅ Modell gespeichert: models/V4\snake_model_v2225.h5
 2025-04-20 11:37:41 | Episode 2226/3000 | Score:  21 | Reward: 142.3 | Epsilon: 0.00996568 | Steps: 599
 2025-04-20 11:38:07 | Episode 2227/3000 | Score:  10 | Reward: 55.1 | Epsilon: 0.00996568 | Steps: 360
 2025-04-20 11:39:13 | Episode 2228/3000 | Score:  30 | Reward: 186.2 | Epsilon: 0.00996568 | Steps: 1069
@@ -684,7 +673,6 @@
 2025-04-20 12:00:08 | Episode 2248/3000 | Score:  17 | Reward: 120.7 | Epsilon: 0.00996568 | Steps: 411
 2025-04-20 12:01:21 | Episode 2249/3000 | Score:  36 | Reward: 233.2 | Epsilon: 0.00996568 | Steps: 1205
 2025-04-20 12:02:07 | Episode 2250/3000 | Score:  19 | Reward: 112.1 | Epsilon: 0.00996568 | Steps: 699
-2025-04-20 12:02:07 | ✅ Modell gespeichert: models/V4\snake_model_v2250.h5
 2025-04-20 12:02:21 | Episode 2251/3000 | Score:   5 | Reward: 27.5 | Epsilon: 0.00996568 | Steps: 131
 2025-04-20 12:03:00 | Episode 2252/3000 | Score:  22 | Reward: 154.6 | Epsilon: 0.00996568 | Steps: 577
 2025-04-20 12:04:20 | Episode 2253/3000 | Score:  38 | Reward: 242.3 | Epsilon: 0.00996568 | Steps: 1316
@@ -710,15 +698,3 @@
 2025-04-20 12:21:37 | Episode 2273/3000 | Score:  33 | Reward: 232.8 | Epsilon: 0.00996568 | Steps: 906
 2025-04-20 12:22:47 | Episode 2274/3000 | Score:  37 | Reward: 251.9 | Epsilon: 0.00996568 | Steps: 1119
 2025-04-20 12:24:01 | Episode 2275/3000 | Score:  45 | Reward: 322.1 | Epsilon: 0.00996568 | Steps: 1225
-2025-04-20 12:24:01 | ✅ Modell gespeichert: models/V4\snake_model_v2275.h5
-2025-04-20 12:25:38 | Episode 2276/3000 | Score:  50 | Reward: 331.3 | Epsilon: 0.00996568 | Steps: 1638
-2025-04-20 12:27:04 | Episode 2277/3000 | Score:  45 | Reward: 301.2 | Epsilon: 0.00996568 | Steps: 1434
-2025-04-20 12:27:40 | Episode 2278/3000 | Score:  17 | Reward: 108.3 | Epsilon: 0.00996568 | Steps: 535
-2025-04-20 12:28:27 | Episode 2279/3000 | Score:  25 | Reward: 170.6 | Epsilon: 0.00996568 | Steps: 720
-2025-04-20 12:29:04 | Episode 2280/3000 | Score:  20 | Reward: 138.3 | Epsilon: 0.00996568 | Steps: 538
-2025-04-20 12:30:00 | Episode 2281/3000 | Score:  31 | Reward: 214.2 | Epsilon: 0.00996568 | Steps: 890
-2025-04-20 12:30:49 | Episode 2282/3000 | Score:  29 | Reward: 205.6 | Epsilon: 0.00996568 | Steps: 774
-2025-04-20 12:31:48 | Episode 2283/3000 | Score:  33 | Reward: 229.9 | Epsilon: 0.00996568 | Steps: 935
-2025-04-20 12:32:40 | Episode 2284/3000 | Score:  29 | Reward: 202.0 | Epsilon: 0.00996568 | Steps: 810
-2025-04-20 12:33:48 | Episode 2285/3000 | Score:  36 | Reward: 241.5 | Epsilon: 0.00996568 | Steps: 1122
-2025-04-20 12:35:01 | Episode 2286/3000 | Score:  37 | Reward: 242.7 | Epsilon: 0.00996568 | Steps: 1211

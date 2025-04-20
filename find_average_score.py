@@ -1,8 +1,21 @@
 import os
 import sys
 import datetime
+import tensorflow as tf
 from agent import DQNAgent
 from snake_env import SnakeEnv
+
+# ✅ GPU-Support aktivieren (wenn vorhanden)
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        print("🚀 GPU-Support aktiviert!")
+    except RuntimeError as e:
+        print("⚠️ Fehler beim Initialisieren der GPU:", e)
+else:
+    print("⚠️ Keine GPU gefunden, Training läuft auf CPU.")
 
 # 🛠️ Logger-Klasse für Terminal + Datei mit Timestamp
 class Logger:
@@ -11,7 +24,7 @@ class Logger:
         self.log = open(logfile_path, "a", encoding="utf-8")
 
     def write(self, message):
-        if message.strip():  # keine leeren Zeilen loggen
+        if message.strip():
             timestamped = f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {message}"
             self.terminal.write(timestamped + "\n")
             self.log.write(timestamped + "\n")

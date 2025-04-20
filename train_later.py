@@ -1,17 +1,30 @@
 import os
 import sys
 import datetime
+import tensorflow as tf
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
-# 🛠️ Klasse für Doppel-Logging (Konsole + Datei) mit Timestamp
+# 💻 GPU-Konfiguration
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        print("🚀 GPU wird verwendet.")
+    except RuntimeError as e:
+        print("⚠️ Fehler bei GPU-Initialisierung:", e)
+else:
+    print("🧠 Kein GPU-Gerät gefunden – CPU wird verwendet.")
+
+# 🛠️ Logger-Klasse für Terminal + Datei mit Timestamp
 class Logger:
     def __init__(self, logfile_path):
         self.terminal = sys.__stdout__
         self.log = open(logfile_path, "a", encoding="utf-8")
 
     def write(self, message):
-        if message.strip():  # Nur wenn nicht leer
+        if message.strip():
             timestamped = f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {message}"
             if not message.endswith('\n'):
                 timestamped += '\n'
@@ -19,7 +32,6 @@ class Logger:
             self.terminal.flush()
             self.log.write(timestamped)
             self.log.flush()
-
 
     def flush(self):
         self.terminal.flush()
@@ -47,6 +59,7 @@ start_episode = 1601
 episodes = 3000
 batch_size = 64
 save_interval = 25
+max_no_food_steps = 130
 
 for e in range(start_episode, episodes + 1):
     state = env.reset()
@@ -55,7 +68,6 @@ for e in range(start_episode, episodes + 1):
     total_reward = 0
     step = 0
     steps_since_last_food = 0
-    max_no_food_steps = 130
 
     while not done:
         action = agent.act(state)
