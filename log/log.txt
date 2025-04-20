@@ -1048,7 +1048,6 @@ Episode 1047/2000 | Score:   1 | Reward: -3.4 | Epsilon: 0.15331311 | Steps:  36
 Episode 1048/2000 | Score:   6 | Reward: 26.4 | Epsilon: 0.15269986 | Steps: 243
 Episode 1049/2000 | Score:   6 | Reward: 32.7 | Epsilon: 0.15208906 | Steps: 180
 Episode 1050/2000 | Score:  12 | Reward: 68.9 | Epsilon: 0.15148070 | Steps: 424
-
 Episode 1051/2000 | Score:   5 | Reward: 15.9 | Epsilon: 0.15087478 | Steps: 247
 Episode 1052/2000 | Score:   6 | Reward: 24.8 | Epsilon: 0.15027128 | Steps: 259
 Episode 1053/2000 | Score:   5 | Reward: 15.9 | Epsilon: 0.14967019 | Steps: 247

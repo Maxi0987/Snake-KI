@@ -3,7 +3,7 @@ import pygame
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
-MODEL_PATH = "models/V4/snake_model_v900.h5"  # ⬅️ Pfad zum gespeicherten Modell
+MODEL_PATH = "models/V4/snake_model_v1575.h5"  # ⬅️ Pfad zum gespeicherten Modell
 
 # Initialisiere Umgebung mit Anzeige
 env = SnakeEnv(render=True)
@@ -40,7 +40,7 @@ for ep in range(1, episodes + 1):
             action = agent.act(state)
             next_state, reward, done, score = env.step(action)
             state = next_state
-            time.sleep(0.03)  # für bessere visuelle Darstellung
+            time.sleep(0.01)  # für bessere visuelle Darstellung
 
     if esc_pressed:
         print(f"⏭️ Episode {ep} abgebrochen mit ESC - Score: {score}")

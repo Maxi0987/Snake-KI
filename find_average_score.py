@@ -1,7 +1,30 @@
 import os
+import sys
+import datetime
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
+# 🛠️ Logger-Klasse für Terminal + Datei mit Timestamp
+class Logger:
+    def __init__(self, logfile_path):
+        self.terminal = sys.__stdout__
+        self.log = open(logfile_path, "a", encoding="utf-8")
+
+    def write(self, message):
+        if message.strip():  # keine leeren Zeilen loggen
+            timestamped = f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {message}"
+            self.terminal.write(timestamped + "\n")
+            self.log.write(timestamped + "\n")
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+# 📁 Log aktivieren
+logfile = Logger("log/evaluation.log")
+sys.stdout = logfile
+
+# 📁 Modelleinstellungen
 MODEL_DIR = "models/V4"
 EPISODES_PER_MODEL = 3
 MAX_STEPS_WITHOUT_FOOD = 200
@@ -13,6 +36,7 @@ best_score = -1
 best_model = None
 results = []
 
+# 🔍 Durchsuche Modellordner
 for filename in sorted(os.listdir(MODEL_DIR)):
     if filename.endswith(".h5"):
         model_path = os.path.join(MODEL_DIR, filename)
@@ -31,14 +55,12 @@ for filename in sorted(os.listdir(MODEL_DIR)):
             score = 0
             steps_without_food = 0
             previous_score = 0
-            
 
             while not done:
                 action = agent.act(state)
                 next_state, reward, done, score = env.step(action)
                 state = next_state
 
-                # Wenn Score sich nicht ändert → kein Apfel gefressen
                 if score > previous_score:
                     steps_without_food = 0
                     previous_score = score
@@ -46,7 +68,7 @@ for filename in sorted(os.listdir(MODEL_DIR)):
                     steps_without_food += 1
 
                 if steps_without_food > MAX_STEPS_WITHOUT_FOOD:
-                    done = True  # Abbruch der Episode ohne Fortschritt
+                    done = True
 
             total_score += score
 
@@ -59,5 +81,10 @@ for filename in sorted(os.listdir(MODEL_DIR)):
 
         print(f"📊 {filename} → ⌀ Score: {avg_score:.2f}")
 
+# 🏆 Ergebnis
 print("\n🏆 Bestes Modell:")
 print(f"{best_model} mit durchschnittlichem Score von {best_score:.2f}")
+
+# 🔚 Logger zurücksetzen
+logfile.log.close()
+sys.stdout = sys.__stdout__

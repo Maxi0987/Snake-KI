@@ -27,7 +27,7 @@
 📊 snake_model_v375.h5 → ⌀ Score: 1.00
 🔍 Teste Modell: snake_model_v400.h5
 📊 snake_model_v400.h5 → ⌀ Score: 18.67
-🔍 Teste Modell: snake_model_v425.h5
+🔍 Teste Modell: snake_model_v425.h5<
 📊 snake_model_v425.h5 → ⌀ Score: 1.00
 🔍 Teste Modell: snake_model_v450.h5
 📊 snake_model_v450.h5 → ⌀ Score: 1.33
