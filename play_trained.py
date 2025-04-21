@@ -3,7 +3,7 @@ import pygame
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
-MODEL_PATH = "models/V4/snake_model_v2175.h5"  # ⬅️ Pfad zum gespeicherten Modell
+MODEL_PATH = "models/V4/snake_model_v3800.h5"  # ⬅️ Pfad zum gespeicherten Modell
 
 # Initialisiere Umgebung mit Anzeige
 env = SnakeEnv(render=True)

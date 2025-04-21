@@ -3,7 +3,7 @@ import os
 import platform
 import time
 
-def run_with_retry(script_name, max_retries=10, wait_between=15):
+def run_with_retry(script_name, max_retries=20, wait_between=15):
     retries = 0
     while retries < max_retries:
         print(f"▶️ Starte {script_name} (Versuch {retries + 1}/{max_retries})...")

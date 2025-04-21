@@ -100,8 +100,71 @@
 2025-04-20 14:52:26 | 📊 snake_model_v2250.h5 → ⌀ Score: 36.00
 2025-04-20 14:52:26 | 🔍 Teste Modell: snake_model_v2275.h5
 2025-04-20 14:57:01 | 📊 snake_model_v2275.h5 → ⌀ Score: 48.33
-2025-04-20 14:57:01 | 
-🏆 Bestes Modell:
-2025-04-21 02:05:38 | 🔍 Teste Modell: snake_model_v100.h5
-2025-04-21 02:06:13 | 📊 snake_model_v100.h5 → ⌀ Score: 1.00
-2025-04-21 02:06:13 | 🔍 Teste Modell: snake_model_v1000.h5
+
+2025-04-21 16:53:56 | 🔍 Teste Modell: snake_model_v2100.h5
+2025-04-21 16:55:50 | 📊 snake_model_v2100.h5 → ⌀ Score: 31.67
+2025-04-21 16:55:50 | 🔍 Teste Modell: snake_model_v2125.h5
+2025-04-21 16:57:12 | 📊 snake_model_v2125.h5 → ⌀ Score: 23.33
+2025-04-21 16:57:12 | 🔍 Teste Modell: snake_model_v2150.h5
+2025-04-21 16:59:29 | 📊 snake_model_v2150.h5 → ⌀ Score: 40.67
+2025-04-21 16:59:29 | 🔍 Teste Modell: snake_model_v2175.h5
+2025-04-21 17:01:43 | 📊 snake_model_v2175.h5 → ⌀ Score: 38.33
+2025-04-21 17:01:43 | 🔍 Teste Modell: snake_model_v2200.h5
+2025-04-21 17:03:28 | 📊 snake_model_v2200.h5 → ⌀ Score: 27.67
+2025-04-21 17:03:28 | 🔍 Teste Modell: snake_model_v2225.h5
+2025-04-21 17:06:15 | 📊 snake_model_v2225.h5 → ⌀ Score: 47.33
+2025-04-21 17:06:15 | 🔍 Teste Modell: snake_model_v2250.h5
+2025-04-21 17:08:44 | 📊 snake_model_v2250.h5 → ⌀ Score: 40.33
+2025-04-21 17:08:44 | 🔍 Teste Modell: snake_model_v2275.h5
+2025-04-21 17:11:26 | 📊 snake_model_v2275.h5 → ⌀ Score: 46.00
+2025-04-21 17:11:26 | 🔍 Teste Modell: snake_model_v2300.h5
+2025-04-21 17:15:20 | 📊 snake_model_v2300.h5 → ⌀ Score: 59.00
+2025-04-21 17:15:20 | 🔍 Teste Modell: snake_model_v2325.h5
+2025-04-21 17:17:34 | 📊 snake_model_v2325.h5 → ⌀ Score: 32.00
+2025-04-21 17:17:34 | 🔍 Teste Modell: snake_model_v2350.h5
+2025-04-21 17:19:42 | 📊 snake_model_v2350.h5 → ⌀ Score: 27.33
+2025-04-21 17:19:42 | 🔍 Teste Modell: snake_model_v2375.h5
+2025-04-21 17:22:12 | 📊 snake_model_v2375.h5 → ⌀ Score: 34.00
+2025-04-21 17:22:12 | 🔍 Teste Modell: snake_model_v2400.h5
+2025-04-21 17:24:04 | 📊 snake_model_v2400.h5 → ⌀ Score: 27.00
+2025-04-21 17:24:04 | 🔍 Teste Modell: snake_model_v2425.h5
+2025-04-21 17:26:05 | 📊 snake_model_v2425.h5 → ⌀ Score: 25.67
+2025-04-21 17:26:05 | 🔍 Teste Modell: snake_model_v2450.h5
+2025-04-21 17:28:52 | 📊 snake_model_v2450.h5 → ⌀ Score: 42.33
+2025-04-21 17:28:52 | 🔍 Teste Modell: snake_model_v2475.h5
+2025-04-21 17:31:59 | 📊 snake_model_v2475.h5 → ⌀ Score: 42.33
+2025-04-21 17:31:59 | 🔍 Teste Modell: snake_model_v2500.h5
+2025-04-21 17:34:08 | 📊 snake_model_v2500.h5 → ⌀ Score: 33.67
+2025-04-21 17:34:08 | 🔍 Teste Modell: snake_model_v2525.h5
+2025-04-21 17:35:53 | 📊 snake_model_v2525.h5 → ⌀ Score: 23.67
+2025-04-21 17:35:53 | 🔍 Teste Modell: snake_model_v2550.h5
+2025-04-21 17:36:48 | 📊 snake_model_v2550.h5 → ⌀ Score: 13.00
+2025-04-21 17:36:48 | 🔍 Teste Modell: snake_model_v2575.h5
+2025-04-21 17:37:20 | 📊 snake_model_v2575.h5 → ⌀ Score: 2.33
+2025-04-21 17:37:20 | 🔍 Teste Modell: snake_model_v2600.h5
+2025-04-21 17:41:44 | 📊 snake_model_v2600.h5 → ⌀ Score: 56.33
+2025-04-21 17:41:44 | 🔍 Teste Modell: snake_model_v2625.h5
+2025-04-21 17:45:00 | 📊 snake_model_v2625.h5 → ⌀ Score: 51.33
+2025-04-21 17:45:00 | 🔍 Teste Modell: snake_model_v2650.h5
+2025-04-21 17:46:35 | 📊 snake_model_v2650.h5 → ⌀ Score: 23.33
+2025-04-21 17:46:35 | 🔍 Teste Modell: snake_model_v2675.h5
+2025-04-21 17:49:06 | 📊 snake_model_v2675.h5 → ⌀ Score: 37.33
+2025-04-21 17:49:06 | 🔍 Teste Modell: snake_model_v2700.h5
+2025-04-21 17:52:39 | 📊 snake_model_v2700.h5 → ⌀ Score: 46.33
+2025-04-21 17:52:39 | 🔍 Teste Modell: snake_model_v2725.h5
+2025-04-21 17:55:55 | 📊 snake_model_v2725.h5 → ⌀ Score: 44.00
+2025-04-21 17:55:55 | 🔍 Teste Modell: snake_model_v2750.h5
+2025-04-21 17:56:50 | 📊 snake_model_v2750.h5 → ⌀ Score: 14.67
+2025-04-21 17:56:50 | 🔍 Teste Modell: snake_model_v2775.h5
+2025-04-21 18:00:26 | 📊 snake_model_v2775.h5 → ⌀ Score: 57.00
+2025-04-21 18:00:26 | 🔍 Teste Modell: snake_model_v2800.h5
+2025-04-21 18:01:56 | 📊 snake_model_v2800.h5 → ⌀ Score: 15.67
+2025-04-21 18:01:56 | 🔍 Teste Modell: snake_model_v2825.h5
+2025-04-21 18:04:26 | 📊 snake_model_v2825.h5 → ⌀ Score: 39.00
+2025-04-21 18:04:26 | 🔍 Teste Modell: snake_model_v2850.h5
+2025-04-21 18:06:01 | 📊 snake_model_v2850.h5 → ⌀ Score: 20.67
+2025-04-21 18:06:01 | 🔍 Teste Modell: snake_model_v2875.h5
+2025-04-21 18:09:22 | 📊 snake_model_v2875.h5 → ⌀ Score: 52.33
+2025-04-21 18:09:22 | 🔍 Teste Modell: snake_model_v2900.h5
+2025-04-21 18:11:01 | 📊 snake_model_v2900.h5 → ⌀ Score: 24.67
+2025-04-21 18:11:01 | 🔍 Teste Modell: snake_model_v2925.h5
