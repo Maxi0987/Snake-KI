@@ -24,8 +24,8 @@ class DQNAgent:
         # Hyperparameter
         self.gamma = 0.95            # Discount-Faktor (Bellman)
         self.epsilon = 1.0           # Startwert für Exploration
-        self.epsilon_min = 0.01      # Minimale Exploration
-        self.epsilon_decay = 0.996   # Wie schnell Exploration sinkt
+        self.epsilon_min = 0.012      # Minimale Exploration
+        self.epsilon_decay = 0.997   # Wie schnell Exploration sinkt
         self.learning_rate = 0.001
 
         self.memory = deque(maxlen=2000)  # Replay Buffer

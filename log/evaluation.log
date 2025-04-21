@@ -102,11 +102,6 @@
 2025-04-20 14:57:01 | 📊 snake_model_v2275.h5 → ⌀ Score: 48.33
 2025-04-20 14:57:01 | 
 🏆 Bestes Modell:
-2025-04-20 14:57:01 | snake_model_v2175.h5 mit durchschnittlichem Score von 59.00
-2025-04-20 20:27:16 | 🔍 Teste Modell: snake_model_v100.h5
-2025-04-20 20:29:29 | 🔍 Teste Modell: snake_model_v100.h5
-2025-04-20 20:31:06 | 🔍 Teste Modell: snake_model_v100.h5
-2025-04-20 20:31:48 | 📊 snake_model_v100.h5 → ⌀ Score: 1.00
-2025-04-20 20:31:48 | 🔍 Teste Modell: snake_model_v1000.h5
-2025-04-20 20:32:50 | 📊 snake_model_v1000.h5 → ⌀ Score: 5.00
-2025-04-20 20:32:50 | 🔍 Teste Modell: snake_model_v1025.h5
+2025-04-21 02:05:38 | 🔍 Teste Modell: snake_model_v100.h5
+2025-04-21 02:06:13 | 📊 snake_model_v100.h5 → ⌀ Score: 1.00
+2025-04-21 02:06:13 | 🔍 Teste Modell: snake_model_v1000.h5
