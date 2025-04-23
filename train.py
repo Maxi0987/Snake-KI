@@ -5,6 +5,12 @@ import tensorflow as tf
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
+# ✅ Mixed Precision & XLA aktivieren
+from tensorflow.keras import mixed_precision
+policy = mixed_precision.Policy('mixed_float16')
+mixed_precision.set_global_policy(policy)
+#tf.config.optimizer.set_jit(True)
+
 # 💻 GPU-Konfiguration
 gpus = tf.config.list_physical_devices('GPU')
 if gpus:

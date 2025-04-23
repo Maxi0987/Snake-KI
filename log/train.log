@@ -2424,4 +2424,4 @@
 2025-04-21 16:16:18 | Episode 3997/5000 | Score:  23 | Reward: 146.7 | Epsilon: 0.01197723 | Steps: 757
 2025-04-21 16:16:43 | Episode 3998/5000 | Score:  15 | Reward: 100.7 | Epsilon: 0.01197723 | Steps: 409
 2025-04-21 16:17:39 | Episode 3999/5000 | Score:  36 | Reward: 251.0 | Epsilon: 0.01197723 | Steps: 1027
-2025-04-21 16:18:06 | Episode 4000/5000 | Score:  14 | Reward: 88.0 | Epsilon: 0.01197723 | Steps: 435
+2025-04-21 16:18:06 | Episode 4000/5000 | Score:  14 | Reward: 88.0 | Epsilon: 0.1 | Steps: 435

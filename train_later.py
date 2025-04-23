@@ -2,11 +2,18 @@ import os
 import sys
 import datetime
 import re
+import numpy as np
 import tensorflow as tf
 from agent import DQNAgent
 from snake_env import SnakeEnv
 
-# 💻 GPU Setup
+# ✅ Mixed Precision & XLA aktivieren (ab TF 2.10)
+from tensorflow.keras import mixed_precision
+policy = mixed_precision.Policy('mixed_float16')
+mixed_precision.set_global_policy(policy)
+#tf.config.optimizer.set_jit(True)
+
+# ✅ GPU Setup
 gpus = tf.config.list_physical_devices('GPU')
 if gpus:
     try:
@@ -18,7 +25,7 @@ if gpus:
 else:
     print("🧠 Kein GPU-Gerät gefunden – CPU wird verwendet.")
 
-# 📋 Logger für Konsole + Datei
+# 🪵 Logger für Konsole + Datei
 class Logger:
     def __init__(self, logfile_path):
         self.terminal = sys.__stdout__
@@ -36,15 +43,14 @@ class Logger:
         self.terminal.flush()
         self.log.flush()
 
-# 🪵 Logging aktivieren
+# 🔗 Logging aktivieren
 log_path = "log/train.log"
 sys.stdout = Logger(log_path)
 
-# 📁 Modellverzeichnis
-SAVE_DIR = "models/V4"
+# 🔍 Modellverzeichnis & Wiederaufnahme
+SAVE_DIR = "models/V4" 
 os.makedirs(SAVE_DIR, exist_ok=True)
 
-# 🔍 Letzte gespeicherte Episode finden
 def find_latest_model_info():
     models = [f for f in os.listdir(SAVE_DIR) if f.startswith("snake_model_v") and f.endswith(".h5")]
     latest_ep = 0
@@ -58,14 +64,11 @@ def find_latest_model_info():
                 latest_file = f
     return latest_ep, os.path.join(SAVE_DIR, latest_file) if latest_file else None
 
-# 🔍 Letztes Epsilon aus Log-Datei extrahieren
 def get_last_epsilon(log_file, latest_episode):
     if not os.path.exists(log_file):
-        return 1.0  # Default
-
+        return 1.0
     with open(log_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
-
     epsilon_pattern = re.compile(rf"Episode {latest_episode:04}.*?Epsilon: ([0-9.]+)")
     for line in reversed(lines):
         match = epsilon_pattern.search(line)
@@ -73,19 +76,19 @@ def get_last_epsilon(log_file, latest_episode):
             return float(match.group(1))
     return 1.0
 
-# 📈 Trainingseinstellungen
+# 📈 Trainingsparameter
 episodes = 5000
 batch_size = 64
 save_interval = 25
 max_no_food_steps = 120
 
-# 🧠 Agent & Env
+# 🧠 Init Agent + Environment
 env = SnakeEnv(render=False)
 state_size = 12
 action_size = 3
 agent = DQNAgent(state_size, action_size, model_name="snake_dqn")
 
-# ⏪ Wiederaufnahme vorbereiten
+# ⏪ Wiederaufnahme
 latest_episode, latest_model_path = find_latest_model_info()
 start_episode = latest_episode + 1
 
@@ -93,15 +96,15 @@ if latest_model_path:
     agent.load(latest_model_path)
     print(f"📦 Modell geladen: {latest_model_path}")
 else:
-    print("🆕 Neues Training startet – kein Modell gefunden")
+    print("🆕 Neues Training startet – kein Modell gefunden.")
 
 agent.epsilon = get_last_epsilon(log_path, latest_episode)
 print(f"🔁 Starte bei Episode {start_episode} mit Epsilon: {agent.epsilon:.8f}")
 
-# 🧠 Haupt-Trainingsloop
+# 🧠 Trainingsloop
 try:
     for e in range(start_episode, episodes + 1):
-        state = env.reset()
+        state = env.reset().astype(np.float32)
         done = False
         score = 0
         total_reward = 0
@@ -111,6 +114,7 @@ try:
         while not done:
             action = agent.act(state)
             next_state, reward, done, score = env.step(action)
+            next_state = next_state.astype(np.float32)
 
             if reward == -10:
                 done = True
@@ -138,12 +142,11 @@ try:
             agent.save(model_path)
             print(f"✅ Modell gespeichert: {model_path}")
 
-    # ✅ Erfolg markieren
     with open("train_done.flag", "w") as f:
         f.write("Training abgeschlossen.")
 
 except Exception as err:
-    print(f"❌ Training wurde durch einen Fehler unterbrochen: {err}")
+    print(f"❌ Fehler beim Training: {err}")
 
 finally:
     env.close()
